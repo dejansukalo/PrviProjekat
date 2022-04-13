@@ -1,2 +1,4 @@
 Ovo je novi fajl!!!
 druga linija
+
+ovo je najnovija linija u fajlu!
