@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                javac Hello.java
+                echo "Build from Git.."
             }
         }
     }
