@@ -1,11 +1,9 @@
 
 def gv
-
 pipeline {
   agent any
-<<<<<<< HEAD
   parameters {
-      choice(name: 'VERSION', choices: ['1.1', '1.2'], description: '')
+      //choice(name: 'VERSION', choices: ['1.1', '1.2'], description: '')
       booleanParam(name: 'executeTest', defaultValue: true, description: '')
   }
   stages {
