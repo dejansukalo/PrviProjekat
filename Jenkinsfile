@@ -14,15 +14,11 @@ pipeline {
              }
            }
         }
-        stage ('build')
+        stage ('build') {
           steps {
               script{
                   gv.buildApp()
               }
-    stages {
-        stage('Build') { 
-            steps {
-                echo "Build from Git.."
             }
         }
     }
